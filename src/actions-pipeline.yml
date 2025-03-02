@@ -1,13 +1,3 @@
-name: Super Linter Workflow
-
-on:
-  push:
-    branches:
-      - main # or your default branch
-  pull_request:
-    branches:
-      - main
-
 jobs:
   super-lint:
     runs-on: ubuntu-latest
