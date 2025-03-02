@@ -9,9 +9,9 @@ jobs:
       - name: Super Linter
         uses: github/super-linter@v5 # or the latest v version.
         env:
-          VALIDATE_ALL_CODEBASE: false # Set to true to lint all files
+          VALIDATE_ALL_CODEBASE: true # Set to true to lint all files
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed for some linters
-          VALIDATE_JAVASCRIPT_STANDARD: false #disable javascript linting if not needed.
-          VALIDATE_PYTHON_BLACK: false #disable python linting if not needed.
+          VALIDATE_JAVASCRIPT_STANDARD: true #disable javascript linting if not needed.
+          VALIDATE_PYTHON_BLACK: true #disable python linting if not needed.
           VALIDATE_YAML: true # enable yaml linting.
           VALIDATE_MARKDOWN: true # enable markdown linting.
