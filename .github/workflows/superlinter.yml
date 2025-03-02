@@ -1,27 +1,17 @@
-name: Superlinrter.yml
+name: Super-Linter
 
-on:
-  push:
-    branches:
-      - main # or your default branch
-  pull_request:
-    branches:
-      - main
+on: push
 
 jobs:
   super-lint:
+    name: Lint code base
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4 
+        uses: actions/checkout@v2
 
-      - name: Super Linter
-        uses: github/super-linter@v5 
+      - name: Run Super-Linter
+        uses: github/super-linter@v4
         env:
-          VALIDATE_ALL_CODEBASE: false # Set to true to lint all files
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-          VALIDATE_JAVASCRIPT_STANDARD: false 
-          VALIDATE_PYTHON_BLACK: false 
-          VALIDATE_YAML: true 
-          VALIDATE_MARKDOWN: true 
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
