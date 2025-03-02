@@ -23,7 +23,7 @@ function Nav() {
         color: isActive ? 'black' : 'white',
         listStyle: 'none',
         textDecoration: 'none',
-        padding:'0px 100px 0px 100px',
+        padding:'0px 100px 50px 100px',
         }
     }  
    
