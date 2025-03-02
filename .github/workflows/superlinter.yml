@@ -14,14 +14,14 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4 # or the latest v version.
+        uses: actions/checkout@v4 
 
       - name: Super Linter
-        uses: github/super-linter@v5 # or the latest v version.
+        uses: github/super-linter@v5 
         env:
           VALIDATE_ALL_CODEBASE: false # Set to true to lint all files
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed for some linters
-          VALIDATE_JAVASCRIPT_STANDARD: false #disable javascript linting if not needed.
-          VALIDATE_PYTHON_BLACK: false #disable python linting if not needed.
-          VALIDATE_YAML: true # enable yaml linting.
-          VALIDATE_MARKDOWN: true # enable markdown linting.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          VALIDATE_JAVASCRIPT_STANDARD: false 
+          VALIDATE_PYTHON_BLACK: false 
+          VALIDATE_YAML: true 
+          VALIDATE_MARKDOWN: true 
