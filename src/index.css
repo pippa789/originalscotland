@@ -14,22 +14,26 @@ code {
     monospace;
 }
 
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-top: 50px;
-}
-
 .title {
   color:white;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Poppins", serif;
   font-weight:10;
   font-style:thin;
-  margin:100px;
+  margin:  75px 200px;
   padding: 10;
+}
+
+.cover-container{
+  display: flex;
+  justify-content: center;
+}
+.cover{
+  background-image: url(images/seal-gallery.png);
+  height: 431px;
+  width: 300px;
+  margin-top: 40px;
+  background-repeat: no-repeat;  
 }
 
 .nav {
@@ -37,9 +41,17 @@ code {
   color: hsla(206, 47%, 97%, 0.969);
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
-  margin-top: 50px; 
+  padding: 100px;
+  background-color: brown;
 }
 
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
 .battery-park-g{
   background-image: url('images/battery-park-g.png');
   background-repeat: no-repeat;
@@ -118,13 +130,7 @@ code {
   margin: 30px;
 }
 
-.cover{
-  background-image: url(images/seal-modal.png);
-  height: 500px;
-  width: 400px;
-  margin-top: 40px;
-  background-repeat: no-repeat;  
-}
+
 
 .seal-modal {
   background-image: url(images/seal-modal.png);

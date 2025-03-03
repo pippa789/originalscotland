@@ -31,9 +31,10 @@ function Nav() {
     display:"flex",
     flexDirection: "flex-row",
     alignItems: 'center',
-    padding: '10px',
+    padding: '50px',
     margin: "0px",
     listStyle: "none",
+    
    };
   
   return (
