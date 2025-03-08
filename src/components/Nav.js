@@ -20,7 +20,7 @@ function Nav() {
     const LinkStyle = ({isActive}) => {
         return {
         fontWeight: isActive ? 'bold' : 'normal',
-        color: isActive ? 'black' : 'white',
+        color: isActive ? 'grey' : 'white',
         listStyle: 'none',
         textDecoration: 'none',
         padding:'0px 100px 50px 100px',

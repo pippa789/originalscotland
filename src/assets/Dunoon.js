@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import'../index.css';
 
 
-function Seal() {
+function Dunoon() {
     const [isModalOpen, setModalOpen] = useState(false);
     const [buttonHovered, setButtonHovered] = useState(false); // State for hover effect
 
@@ -16,10 +16,8 @@ function Seal() {
         setModalOpen(false);
     };
 
-
- 
   return (
-    <div className='seal-gallery'>
+    <div className='dunoon-gallery'>
         <button className='modal-button'
         onClick={openModal}
         onMouseEnter={() => setButtonHovered(true)}
@@ -31,8 +29,8 @@ function Seal() {
         <div className='modal'>
             <div className='modal-text'>
                 <p>this is a small painting created after a long illnes. hopefull for summer</p>
-                <div className='close' onClick={closeModal}>Close</div>
-                <div className='seal-modal'>   
+                    <div className='close' onClick={closeModal}>Close</div>
+                    <div className='dunoon-gallery'>   
                 </div>
             </div>
         </div>
@@ -40,4 +38,4 @@ function Seal() {
      </div>
 )}
 
-export default Seal
+export default Dunoon
