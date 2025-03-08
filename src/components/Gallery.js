@@ -19,7 +19,7 @@ const images = [
 
 
 function Gallery() {
-const [SelectedImage, setSelectedImage] = useState(false);
+const [selectedImage, setSelectedImage] = useState(null);
 
 
   return (
@@ -27,17 +27,17 @@ const [SelectedImage, setSelectedImage] = useState(false);
       {images.map((image, index)=>(
         <img
         key={index}
-        src={images.src}
+        src={image.src}
         alt={image.alt}
         className={`image ${image.className}`} 
-        onClick={()=> setSelectedImage(...images)} 
+        onClick={()=> setSelectedImage(image.className)} 
         />
       ))}
       
-    {SelectedImage && (
+    {selectedImage && (
         <div className="modal-overlay show" onClick={() => setSelectedImage(null)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <img src={SelectedImage} alt={SelectedImage}className="modal-image" />
+            <img src={selectedImage.className} alt={selectedImage.alt}className="modal-image" />
             <button className="close-btn" onClick={() => setSelectedImage(null)}>✕</button>
           </div>
         </div>
