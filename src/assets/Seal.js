@@ -14,13 +14,17 @@ function Seal() {
     };
  
   return (
-    <div className='seal-gallery'>Seal
-    <button onClick={openModal}>Seal</button>
+    <div className='seal-gallery'>
+    <button onClick={openModal}>More info</button>
 
     {isModalOpen && (
-        <div className='seal-gallery'>
-            <span className='close' onClick={closeModal}>&times;</span>
+        <div className='modal'>
+            <div className='modal-text'>
                 <p>this is a small painting created after a long illnes. hopefull for summer</p>
+                <div className='seal-modal'>
+            <span className='close' onClick={closeModal}>Close</span>
+        </div>        
+        </div>
         </div>
      )}
      </div>
