@@ -27,13 +27,30 @@ code {
 .cover-container{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .cover{
   background-image: url(images/seal-gallery.png);
   height: 431px;
   width: 300px;
   margin-top: 40px;
+  margin-bottom:0px ;
   background-repeat: no-repeat;  
+}
+
+.gallery-button{
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-family: 'poppins', sans-serif;
+  font-weight: 100;
+  background-color: black;
+  border:solid white;
+  border-width: 1px;
+  border-radius: 5%;
+  font-size: 20px;
+  margin-left: 525px;
+  margin-top: -100px;
 }
 
 .nav {
@@ -54,6 +71,9 @@ code {
 }
 
 .summers-evening-g{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('images/summers-evening-g.png');
   background-repeat: no-repeat;
   width:500px ;
@@ -72,6 +92,9 @@ code {
 }
 
 .crow-gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('images/crow-gallery.png');
   width: 550px;
   height:412px ;
@@ -81,6 +104,9 @@ code {
 }
 
 .cumbrea-gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('images/cumbrea-gallery.png');
   background-repeat: no-repeat;
   width: 250px;
@@ -90,6 +116,9 @@ code {
 }
 
 .sky-gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(images/sky-galllery.png);
   background-repeat:no-repeat ;
   width: 500px; 
@@ -111,6 +140,9 @@ code {
 }
 
 .dunoon-gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(images/dunoon-gallery.png);
   background-repeat: no-repeat;
   width:300px;
@@ -120,6 +152,9 @@ code {
 }
 
 .fox-gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('images/fox-gallery.png');
   width: 300px;
   height: 440px;
@@ -128,6 +163,9 @@ code {
 }
 
 .south-gourock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('images/south-gourock-g.png');
   width:550px ;
   height: 435px;
@@ -136,6 +174,9 @@ code {
 }
 
 .pheonix-gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image:url('images/pheonix-gallery.png') ;
   width:300px;
   height: 404px;
@@ -177,9 +218,10 @@ code {
 display: flex;
 align-items: center;
 justify-content: center;
- margin-left:10px; 
+margin-left:10px; 
+margin-bottom: 20px;
 }
-
+/* all of the images need a modal class to position them correctly */
 .seal-modal {
   background-image: url(images/seal-gallery.png);
   height: 500px;
@@ -190,16 +232,62 @@ justify-content: center;
 }
  
 .pheonix-modal{
-  background-image: url(images/pheonix-modal.png);
-  height: auto;
-  width: auto;
-  margin-top: 40px;
-  background-repeat: no-repeat;  
+  background-image:url('images/pheonix-gallery.png') ;
+  width:300px;
+  height: 404px;
+  margin-left: 200px;  
 }
 
 .sky-modal{
-  background-image: url(images/sky-modal.png);
+  background-image: url(images/sky-galllery.png);
+  background-repeat:no-repeat ;
+  width: 500px; 
+  height:330px;
+  margin-left: 80px;
+}
+
+.dunoon-modal{
+  background-image: url(images/dunoon-gallery.png);
   background-repeat: no-repeat;
-  height:auto;
-  width:auto;
+  width:300px;
+  height: 414px;
+  margin-left: 200px;
+}
+
+.crow-modal{
+  background-image: url('images/crow-gallery.png');
+  width: 550px;
+  height:412px ;
+  margin-left: 75px;
+}
+
+.cumbrea-modal{
+  background-image: url('images/cumbrea-gallery.png');
+  background-repeat: no-repeat;
+  width: 250px;
+  height:346px;
+  margin-left: 220px;
+}
+
+.evening-modal{
+  background-image: url('images/summers-evening-g.png');
+  background-repeat: no-repeat;
+  width:500px ;
+  height:255px ; 
+  margin-left: 100px;
+}
+
+.fox-modal{
+  align-items: center;
+  background-image: url('images/fox-gallery.png');
+  width: 300px;
+  height: 440px; 
+  margin-left: 200px;
+}
+
+.gourock-modal{
+  background-image: url('images/south-gourock-g.png');
+  width:550px ;
+  height: 435px;
+  margin-left: 75px;
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import'../index.css';
 
 
-function Dunoon() {
+function Cumbrea() {
     const [isModalOpen, setModalOpen] = useState(false);
     const [buttonHovered, setButtonHovered] = useState(false); // State for hover effect
 
@@ -17,7 +17,7 @@ function Dunoon() {
     };
 
   return (
-    <div className='dunoon-gallery'>
+    <div className='cumbrea-gallery'>
         <button className='modal-button'
         onClick={openModal}
         onMouseEnter={() => setButtonHovered(true)}
@@ -30,12 +30,11 @@ function Dunoon() {
             <div className='modal-text'>
                 <p>this is a small painting created after a long illnes. hopefull for summer</p>
                     <div className='close' onClick={closeModal}>Close</div>
-                    <div className='dunoon-modal'>   
+                    <div className='cumbrea-modal'>   
                 </div>
             </div>
         </div>
      )}
      </div>
 )}
-
-export default Dunoon
+export default Cumbrea
