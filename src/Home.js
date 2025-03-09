@@ -2,6 +2,7 @@ import React from 'react';
 import "./images/seal-modal.png";
 import GalleryButton from './components/GalleryButton'
 
+
 function Home() {
   return (
   <>
@@ -13,6 +14,7 @@ function Home() {
     </div>
   </div>
 <GalleryButton to='/Gallery'>Browse Gallery</GalleryButton>
+
 </>
   )
 }

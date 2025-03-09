@@ -15,13 +15,14 @@ code {
 }
 
 .title {
-  color:white;
+  color:rgba(237, 225, 225, 0.858);
   font-size: 20px;
   font-family: "Poppins", serif;
-  font-weight:10;
+  font-weight:20;
   font-style:thin;
   margin:  75px 200px;
   padding: 10;
+  line-height-step:2 ;
 }
 
 .cover-container{
@@ -51,6 +52,11 @@ code {
   font-size: 20px;
   margin-left: 525px;
   margin-top: -100px;
+  cursor: defult;
+}
+
+.gallery-button:hover{
+  cursor: pointer;
 }
 
 .nav {
@@ -68,6 +74,34 @@ code {
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 50px;
+}
+.footer{
+  display: flex-collumn;
+  justify-self: start;
+  justify-content: space-between;
+  width: 100%; 
+  height: 150px;
+  margin-top: 60px;
+  font-family: 'poppins' , sans-serif;
+  font-weight: 200;
+  border-top: 1px solid white;
+}
+
+.footer-links{
+  display: flex-column;
+  justify-content: flex-end;
+  font-family: 'poppins', sans-serif;
+  color:white;
+  text-decoration:none;
+}
+
+.footer-style{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ margin: 40px;
+ list-style-type:circle;
+ color: white;
 }
 
 .summers-evening-g{
@@ -184,12 +218,22 @@ code {
   margin: 30px;
 }
 .modal-button{
-  background-color: black;
-  color: white;
-  width: 100px;
+  border:solid white;
+  border-width: 1px;
+  border-radius: 5%;
+  width: 200px;
   height: 50px;
-  
+  background-color: black;
+  font-family:'poppins', sans-serif;
+  font-weight: 100;
+  color: white;
+  font-size: 20px;
+  cursor: default;
 }
+.modal-button:hover{
+  cursor: pointer;
+}
+
 .modal{
   position: fixed; /* Fixed position to cover the viewport */
   top: 0;
@@ -220,6 +264,10 @@ align-items: center;
 justify-content: center;
 margin-left:10px; 
 margin-bottom: 20px;
+cursor: default;
+}
+.close:hover{
+  cursor: pointer;
 }
 /* all of the images need a modal class to position them correctly */
 .seal-modal {
