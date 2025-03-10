@@ -15,14 +15,14 @@ code {
 }
 
 .title {
-  color:rgba(237, 225, 225, 0.858);
+  color:white;
   font-size: 20px;
   font-family: "Poppins", serif;
   font-weight:20;
   font-style:thin;
   margin:  75px 200px;
   padding: 10;
-  line-height-step:2 ;
+  line-height-step:2;
 }
 
 .cover-container{
@@ -37,6 +37,40 @@ code {
   margin-top: 40px;
   margin-bottom:0px ;
   background-repeat: no-repeat;  
+}
+.about-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px;
+}
+.about-text{
+  font-family: 'poppins', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.about-left{
+  font-family: 'poppins', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  margin-left: 50px;
+  margin-right: 500px;
+  margin-top: 20px;
+
+}
+.ruby{
+ background-image: url('./images/ruby.png');
+ width: 100px; 
+ height: 217px;
+ border:solid white;
+ margin-top: -180px;
+ margin-right: -450px;
 }
 
 .gallery-button{
