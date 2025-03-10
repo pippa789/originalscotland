@@ -1,0 +1,26 @@
+name: Basic Workflow (No Linter)
+
+on:
+  push:
+    branches:
+      - main # or your default branch
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4 # or the latest v version
+
+      - name: Example Step (Replace with your build/test commands)
+        run: echo "Running basic workflow without linter."
+        # Add your build, test, or other commands here.
+        # Example:
+        # run: |
+        #   npm install
+        #   npm run build
+        #   npm test
