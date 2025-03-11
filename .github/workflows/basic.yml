@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4 # or the latest v version
+        uses: actions/checkout@v4 
 
       - name: Build
         run: npm install
@@ -22,13 +22,8 @@ jobs:
       - name: Deploy
         run: git config --global user.name      'pippa789'
              git config --global user.email 'allenpip341@gmail.com'
-             git remote set-url origin https//x-access-token:${{secrets.GITHUB_TOKEN}}@github.com{{github.repository}}
+             git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com{{github.repository}}
              npm run deploy 
 
 
-        # Add your build, test, or other commands here.
-        # Example:
-        # run: |
-        #   npm install
-        #   npm run build
-        #   npm test
+       
