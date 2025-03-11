@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/originalscotland/static/css/main.bfc7bd6b.css",
-    "main.js": "/originalscotland/static/js/main.5da9bc64.js",
-    "static/media/seal-modal.png": "/originalscotland/static/media/seal-modal.e8a37da717ed39c1507d.png",
-    "static/media/crow-gallery.png": "/originalscotland/static/media/crow-gallery.5a57b68b442ae4a995a5.png",
-    "static/media/south-gourock-g.png": "/originalscotland/static/media/south-gourock-g.6561d43804bcc1ebdc5d.png",
-    "static/media/sky-galllery.png": "/originalscotland/static/media/sky-galllery.1e0409e6ba0a32c457bc.png",
-    "static/media/fox-gallery.png": "/originalscotland/static/media/fox-gallery.90b3cd41f1b36bf084db.png",
-    "static/media/battery-park-g.png": "/originalscotland/static/media/battery-park-g.849d8d91a823b02c0757.png",
-    "static/media/dunoon-gallery.png": "/originalscotland/static/media/dunoon-gallery.a90dcf39c1d7766d6294.png",
-    "static/media/cumbrea-gallery.png": "/originalscotland/static/media/cumbrea-gallery.f06cacb4556fb3669e64.png",
-    "static/media/seal-gallery.png": "/originalscotland/static/media/seal-gallery.5e847c89bda214bf5ad5.png",
-    "static/media/pheonix-gallery.png": "/originalscotland/static/media/pheonix-gallery.e754d9c39832a8b5cf4f.png",
-    "static/media/summers-evening-g.png": "/originalscotland/static/media/summers-evening-g.67ec0672f809bdfdcedb.png",
-    "static/media/ruby.png": "/originalscotland/static/media/ruby.7ebdc08d9b6596473e51.png",
-    "index.html": "/originalscotland/index.html",
-    "main.bfc7bd6b.css.map": "/originalscotland/static/css/main.bfc7bd6b.css.map",
-    "main.5da9bc64.js.map": "/originalscotland/static/js/main.5da9bc64.js.map"
+    "main.css": "/static/css/main.e2bbbebe.css",
+    "main.js": "/static/js/main.5000c257.js",
+    "static/media/seal-modal.png": "/static/media/seal-modal.e8a37da717ed39c1507d.png",
+    "static/media/crow-gallery.png": "/static/media/crow-gallery.5a57b68b442ae4a995a5.png",
+    "static/media/south-gourock-g.png": "/static/media/south-gourock-g.6561d43804bcc1ebdc5d.png",
+    "static/media/sky-galllery.png": "/static/media/sky-galllery.1e0409e6ba0a32c457bc.png",
+    "static/media/fox-gallery.png": "/static/media/fox-gallery.90b3cd41f1b36bf084db.png",
+    "static/media/battery-park-g.png": "/static/media/battery-park-g.849d8d91a823b02c0757.png",
+    "static/media/dunoon-gallery.png": "/static/media/dunoon-gallery.a90dcf39c1d7766d6294.png",
+    "static/media/cumbrea-gallery.png": "/static/media/cumbrea-gallery.f06cacb4556fb3669e64.png",
+    "static/media/seal-gallery.png": "/static/media/seal-gallery.5e847c89bda214bf5ad5.png",
+    "static/media/pheonix-gallery.png": "/static/media/pheonix-gallery.e754d9c39832a8b5cf4f.png",
+    "static/media/summers-evening-g.png": "/static/media/summers-evening-g.67ec0672f809bdfdcedb.png",
+    "static/media/ruby.png": "/static/media/ruby.7ebdc08d9b6596473e51.png",
+    "index.html": "/index.html",
+    "main.e2bbbebe.css.map": "/static/css/main.e2bbbebe.css.map",
+    "main.5000c257.js.map": "/static/js/main.5000c257.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfc7bd6b.css",
-    "static/js/main.5da9bc64.js"
+    "static/css/main.e2bbbebe.css",
+    "static/js/main.5000c257.js"
   ]
 }
