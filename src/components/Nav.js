@@ -44,7 +44,7 @@ function Nav() {
     <NavBar>
         <ul style={navStyle}>
             <li>
-            <NavLink style={LinkStyle}  to="/">Home</NavLink>
+            <NavLink style={LinkStyle}  to="/">kitty</NavLink>
             </li>
         
             <li>
