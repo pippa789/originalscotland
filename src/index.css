@@ -22,7 +22,7 @@ code {
   font-style:thin;
   margin:  75px 200px;
   padding: 10;
-  line-height-step:2;
+  line-height:2.5;
 }
 
 .cover-container{
@@ -47,27 +47,30 @@ code {
 .about-text{
   font-family: 'poppins', sans-serif;
   color: white;
-  font-size: 16px;
-  font-weight: 200;
+  font-size: 20px;
+  font-weight: 175;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 20px;
+  line-height: 2;
 }
 
 .about-left{
   font-family: 'poppins', sans-serif;
   color: white;
-  font-size: 16px;
-  font-weight: 200;
+  font-size: 20px;
+  font-weight: 175;
   margin-left: 50px;
   margin-right: 500px;
   margin-top: 20px;
+  line-height: 2;
+  line-height: 2;
 
 }
 .ruby{
  background-image: url('./images/ruby.png');
- width: 100px; 
- height: 217px;
+ width: 200px; 
+ height: 394px;
  border:solid white;
  margin-top: -180px;
  margin-right: -450px;
@@ -98,8 +101,8 @@ code {
   color: hsla(206, 47%, 97%, 0.969);
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
-  padding: 100px;
-  background-color: brown;
+  /* margin: 100px; */
+  border-bottom: solid 1px;
 }
 
 .container {

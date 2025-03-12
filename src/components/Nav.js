@@ -9,10 +9,11 @@ justify-content: space-around;
 margin: 0px;
 padding: 0px
 align-items: center;
-height: 50px;
+height: 70px;
 width: 100%;
 background-color: black;
-font-family: 'Poppins', sans-serif;`
+font-family: 'Poppins', sans-serif;
+`
 
 
 function Nav() {
@@ -34,6 +35,8 @@ function Nav() {
     padding: '50px',
     margin: "0px",
     listStyle: "none",
+    borderBottom: "solid 1px",
+    color:'red'
     
    };
   

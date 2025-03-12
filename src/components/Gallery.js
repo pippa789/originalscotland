@@ -8,8 +8,15 @@ import Sky from '../assets/Sky'
 import Crow from '../assets/Crow'
 import Cumbrea from '../assets/Cumbrea'
 import Evening from '../assets/Evening'
+import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
+
 
 function Gallery() {
+   const location = useLocation(); //this little function insures the page always opens at the top//
+  useEffect(()=> {
+    window.scrollTo(0, 0)
+  },[location])
   return (
     <div className='container'>Gallery
       <Seal/>
