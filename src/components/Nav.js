@@ -44,11 +44,11 @@ function Nav() {
     <NavBar>
         <ul style={navStyle}>
             <li>
-            <NavLink style={LinkStyle}  to="/">kitty</NavLink>
+            <NavLink style={LinkStyle}  to="/">Home</NavLink>
             </li>
         
             <li>
-                <NavLink style={LinkStyle} to="/About">cat</NavLink>
+                <NavLink style={LinkStyle} to="/About">About</NavLink>
             </li>   
            <li>
                 <NavLink style={LinkStyle} to="/Gallery">Gallery</NavLink>
