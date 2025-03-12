@@ -48,7 +48,7 @@ function Nav() {
             </li>
         
             <li>
-                <NavLink style={LinkStyle} to="/About">About</NavLink>
+                <NavLink style={LinkStyle} to="/About">cat</NavLink>
             </li>   
            <li>
                 <NavLink style={LinkStyle} to="/Gallery">Gallery</NavLink>
