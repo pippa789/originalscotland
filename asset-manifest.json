@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e05e59a.css",
+    "main.css": "/static/css/main.fff26ef7.css",
     "main.js": "/static/js/main.0ddc5f87.js",
     "static/media/seal-modal.png": "/static/media/seal-modal.e8a37da717ed39c1507d.png",
     "static/media/crow-gallery.png": "/static/media/crow-gallery.5a57b68b442ae4a995a5.png",
@@ -15,11 +15,11 @@
     "static/media/summers-evening-g.png": "/static/media/summers-evening-g.67ec0672f809bdfdcedb.png",
     "static/media/ruby.png": "/static/media/ruby.7ebdc08d9b6596473e51.png",
     "index.html": "/index.html",
-    "main.2e05e59a.css.map": "/static/css/main.2e05e59a.css.map",
+    "main.fff26ef7.css.map": "/static/css/main.fff26ef7.css.map",
     "main.0ddc5f87.js.map": "/static/js/main.0ddc5f87.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e05e59a.css",
+    "static/css/main.fff26ef7.css",
     "static/js/main.0ddc5f87.js"
   ]
 }
