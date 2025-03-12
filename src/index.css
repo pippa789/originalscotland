@@ -96,15 +96,6 @@ code {
   cursor: pointer;
 }
 
-.nav {
-  text-decoration: none;
-  color: hsla(206, 47%, 97%, 0.969);
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  /* margin: 100px; */
-  border-bottom: solid 1px;
-}
-
 .container {
   display: flex;
   justify-content: space-around;
@@ -112,6 +103,7 @@ code {
   flex-wrap: wrap;
   margin-top: 50px;
 }
+
 .footer{
   display: flex-collumn;
   justify-self: start;
