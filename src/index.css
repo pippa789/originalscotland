@@ -32,22 +32,21 @@ code {
     display: flex;
   }
 }
- 
+
 @media (max-width: 480px) {
   .title{
-    margin:0px;
-    color:red;
-    background-color: blue;
+    font-size: clamp( 30px, 20px, 7px);
   }
 }
 
-.title {
+.title{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color:white;
-  font-size: 20px;
+  width: clamp( 200px, 700px, 800px);
+  color: white;
+  font-size:clamp(14px, 20px, 25px) ;
   font-family: "Poppins", serif;
   font-weight:20;
   font-style:thin;
@@ -56,14 +55,11 @@ code {
 }
 
  .home-text{
-  line-height: 3;
-  font-size:15px;
+  font-size:17px;
 }
-@media(max-width:480px){
+@media(max-width:900px)and (min-width:100px){
   .home-text{
-    margin:0%;
-    padding:0%;
-    line-height:0.5rem;
+    width: clamp(200px, 80%, 500px);
     font-size: small;
   }
 }
