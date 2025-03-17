@@ -19,12 +19,15 @@ code {
   position: relative; /* Change to relative */
   display: none;
   flex-direction: column;
-  justify-content: center; /* Center vertically */
+  justify-content: center;
+  align-items: flex-end; /* Center vertically */
   width: 2.25rem;
   height: 2rem;
   color: white;
   font-size: 24px;
+  font-weight: 100;
   cursor: pointer; /* Add cursor pointer */
+  margin-right: -150px;
 }
 
 @media (max-width: 480px) {
@@ -35,40 +38,45 @@ code {
 
 @media (max-width: 480px) {
   .title{
-    font-size: clamp( 30px, 20px, 7px);
+    font-size: clamp( 10px, 20px, 7px);
   }
+}
+.home-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: no-wrap;
+  width:100%;
+  margin-top: 30px;
+  color: white;
+  font-family: "Poppins", serif;
+  font-style:thin;
+  
+
+}
+@media(max-width:480){
+  .home-container{
+    font-size: clamp(10px, 17px 18px);
+    width: clamp(200px, 20%, 90%);
+  } 
 }
 
 .title{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: clamp( 200px, 700px, 800px);
-  color: white;
-  font-size:clamp(14px, 20px, 25px) ;
-  font-family: "Poppins", serif;
   font-weight:20;
-  font-style:thin;
-  margin:  75px 200px;
-  padding: 10;
+  padding-bottom:20px;
 }
 
  .home-text{
   font-size:17px;
-}
-@media(max-width:900px)and (min-width:100px){
-  .home-text{
-    width: clamp(200px, 80%, 500px);
-    font-size: small;
-  }
+  font-weight: 20;
+  margin-right: 100px;
+  margin-left:75px;
 }
 
-.cover-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .cover{
   background-image: url(images/seal-gallery.png);
   height: 431px;
@@ -116,18 +124,22 @@ code {
 }
 
 .gallery-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
   width: 200px;
   height: 50px;
   color: white;
   font-family: 'poppins', sans-serif;
   font-weight: 100;
-  background-color: black;
+  background-color:black;
   border:solid white;
   border-width: 1px;
   border-radius: 5%;
   font-size: 20px;
-  margin-left: 525px;
-  margin-top: -100px;
+  margin-top: 50px;
   cursor: defult;
 }
 
@@ -153,6 +165,7 @@ code {
   font-family: 'poppins' , sans-serif;
   font-weight: 200;
   border-top: 1px solid white;
+  text-decoration: none;
 }
 
 .footer-links{

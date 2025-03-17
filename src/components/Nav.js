@@ -11,8 +11,11 @@ const NavBar = styled.div`
   height: 70px;
   width: 100%;
   background-color: black;
+  border-bottom:  solid 1px;
+  color:white;
   font-family: 'Poppins', sans-serif;
   padding: 0 20px;
+  z-index: 5;
 `;
 
 const NavLinks = styled.ul`
@@ -21,8 +24,7 @@ const NavLinks = styled.ul`
   align-items: center;
   list-style: none;
   margin: 0;
-  padding: 0;
-
+  padding: 20px;
   @media (max-width: 480px) {
     display: none;        // Hide on small screens
   }
@@ -31,6 +33,7 @@ const NavLinks = styled.ul`
 const MobileNavLinks = styled.ul`
   display: flex;
   flex-direction: column;
+  align-items:space-around;
   position: fixed;
   top: 70px; // Adjust based on NavBar height
   right: 0;
