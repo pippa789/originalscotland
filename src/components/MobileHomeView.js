@@ -6,12 +6,14 @@ function MobileHome() {
   return (
     <div className="mobile-home-container">
       <div className="mobile-title">
-        Welcome to Original Scotland (Mobile)
+        Welcome to Original Scotland 
       </div>
       <div className="mobile-text">
-        This is the mobile version of the homepage.
+      I'm Pippa Bullock, an artist in Scotland's 'thin places'—where oldtimers say the veil between worlds is near. My art isn't just scenes, but nature's voice, shared through each piece. Explore my gallery."
       </div>
-      {/* Add your mobile-specific content here */}
+      
+      <div className='mobile-img'></div>
+    
     </div>
   );
 }

@@ -20,9 +20,10 @@ const NavBar = styled.div`
 
 const NavLinks = styled.ul`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   list-style: none;
+  text-decoration: none;
   margin: 0;
   padding: 20px;
   @media (max-width: 480px) {
@@ -42,6 +43,7 @@ const MobileNavLinks = styled.ul`
   height: 100vh;
   padding: 20px;
   z-index: 100;
+  text-decoration:none;
 `;
 
 function Nav() {

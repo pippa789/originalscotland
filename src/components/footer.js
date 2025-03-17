@@ -11,16 +11,14 @@ function Footer() {
         <li>Email allenpip341@gmail.com</li>
         <li> Etsy shop  </li>
       </ol>
-      </div>
-
-      <ul >
-        <li>
-          <NavLink  to='/'>Home</NavLink>
-          <NavLink  to='/About'>About</NavLink>
-          <NavLink  to='/Gallery'>Gallery</NavLink>
+      <ol className='footer-style'>
+        <li className='footer-style-li'>
+          <NavLink className={'footer-links'}  to='/'>Home</NavLink>
+          <NavLink className={'footer-links'} to='/About'>About</NavLink>
+          <NavLink className={'footer-links'}  to='/Gallery'>Gallery</NavLink>
         </li>
-      </ul>
-    
+      </ol>
+      </div>
     </>
   )
 }
