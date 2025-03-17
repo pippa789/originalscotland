@@ -33,14 +33,10 @@ code {
 @media (max-width: 480px) {
   .h-menu {
     display: flex;
+    font-size: 40px;
   }
 }
 
-@media (max-width: 480px) {
-  .title{
-    font-size: clamp( 10px, 20px, 7px);
-  }
-}
 .home-container{
   display: flex;
   flex-direction: column;
@@ -52,14 +48,23 @@ code {
   color: white;
   font-family: "Poppins", serif;
   font-style:thin;
-  
-
 }
-@media(max-width:480){
+@media(max-width: 400px) {
   .home-container{
-    font-size: clamp(10px, 17px 18px);
-    width: clamp(200px, 20%, 90%);
-  } 
+    padding:0px;
+    margin-left:0px;
+    margin-right:-50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-container title {
+    font-size: clamp(11px, 25px, 21px);
+  }
+  .home-container home-text {
+    font-size: clamp(5px, 11px, 20px);
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .title{
@@ -70,11 +75,11 @@ code {
   padding-bottom:20px;
 }
 
- .home-text{
-  font-size:17px;
+.home-text{
   font-weight: 20;
   margin-right: 100px;
   margin-left:75px;
+  font-size: 17px;
 }
 
 .cover{

@@ -1,0 +1,20 @@
+/* MobileHome.css */
+.mobile-home-container {
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+    /* Add your mobile styles here */
+  }
+  
+  .mobile-title {
+    font-size: 15px;
+    color: white;
+
+    /* Add mobile title styles */
+  }
+  
+  .mobile-text {
+    font-size: 12px;
+    color:white;
+    /* Add mobile text styles */
+  }
