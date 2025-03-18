@@ -1,7 +1,24 @@
-import React from 'react'
+import React from 'react';
+import { useState, useEffect,  } from 'react';
+import MobileAbout from './components/MobileAbout';
 
 function About() {
-  return (
+ 
+const [isMobile, setIsMobile]= useState(window.innerWidth <=480)
+  
+    useEffect(() =>{
+      const handleResizse = () => {
+        setIsMobile(window.innerWidth <= 480);
+      };
+      window.addEventListener('resize', handleResizse)
+    },[])
+
+    // const location = useLocation(); //this little function insures the page always opens at the top//
+    // useEffect(()=> {
+    //   window.scrollTo(0, 0)
+    // },[location])
+     
+  return  isMobile ? <MobileAbout/>:(
     <>
     <div className='about-container'>
     <div className='about-text'>    My journey as a landscape artist began with an unexpected spark. I remember my first doodle, born of quiet boredom behind a bar, where familiar faces emerged from tentative lines. Then, a turning point: a frail, abandoned dog named Ruby, who became my companion and muse. Together, we discovered a hidden woodland, a sanctuary that ignited my passion for nature.</div>

@@ -75,7 +75,73 @@
     height: 100%;
     }
 
-  .m-footer{
-
-  }
+    .aboutmobile-container{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* margin-right: -20px;
+      margin-left: -20px; */
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .aboutmobile-text{
+      font-family: 'poppins', sans-serif;
+      color: white;
+      font-size: 17px;
+      font-weight: 200;
+      /* margin-left: 50px;
+      margin-right: 50px; */
+      margin-top: 20px;
+      line-height: 2;
+    }
+    
+    .aboutmobile-left{
+      font-family: 'poppins', sans-serif;
+      color: white;
+      font-size: 17px;
+      font-weight: 200;
+      /* margin-left: 50px;
+      margin-right: 500px; */
+      margin-top: 20px;
+      line-height: 2;
+      line-height: 2;
+    }
+    
+    .aboutmobile-right{
+      font-family: 'poppins', sans-serif;
+      color: white;
+      font-size: 17px;
+      font-weight: 200;
+      /* margin-left: -289px;
+      margin-top: 20px; */
+      line-height: 2;
+      width: 400px;
+      height: 300px;
+    }
+    
+    .aboutmobile-bottom{
+      font-family: 'poppins', sans-serif;
+      color: white;
+      font-size: 17px;
+      font-weight: 200;
+      line-height: 2;
+      /* margin-top: -130px;
+      margin-left: 30px;
+      margin-right: 50px; */
+    }
+    
+    .ruby-mobile{
+     background-image: url('../images/ruby2.png');
+     width: 100px;
+     height: 150px;
+     border:solid white;
+     margin-top: 25px;
+     margin-right: -75px;
+     object-fit: cover;
+     object-position: 100%;
+    
+    }
+    
 
