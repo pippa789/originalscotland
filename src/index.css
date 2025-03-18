@@ -50,23 +50,6 @@ code {
   font-family: "Poppins", serif;
   font-style:thin;
 }
-@media(max-width: 400px) {
-  .home-container{
-    padding:0px;
-    margin-left:0px;
-    margin-right:-50px;
-    display: flex;
-    flex-direction: column;
-  }
-  .home-container title {
-    font-size: clamp(11px, 25px, 21px);
-  }
-  .home-container home-text {
-    font-size: clamp(5px, 11px, 20px);
-    display: flex;
-    flex-direction: row;
-  }
-}
 
 .title{
   display: flex;
