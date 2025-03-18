@@ -20,7 +20,7 @@ const NavBar = styled.div`
 
 const NavLinks = styled.ul`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   list-style: none;
   text-decoration: none;

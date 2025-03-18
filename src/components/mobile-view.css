@@ -5,31 +5,33 @@
 .mobile-home-container {
     display: flex;
     flex-direction: column;
-    justify-content:space-between ;
+    justify-content:center;
     align-items: center;
     padding: 20px;
     width: 100%;
-    height: 400px;
+    height: 100%;
     /* width: 200px;
     height: 400px; */
     /* Add your mobile styles here */
   }
   
   .mobile-title {
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     font-family: 'roboto', sans-serif;
     font-weight: 200;
+    padding: 20px 10px;
     /* Add mobile title styles */
   }
   
   .mobile-text {
-    font-size: 14px;
+    font-size: 17px;
     color:white;
     font-family: 'roboto', sans-serif;
     font-weight: 100;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
     /* margin-top:-125px ; */
     /* Add mobile text styles */
   }
@@ -40,6 +42,40 @@
     object-fit: cover;
     object-position: 100% 0;
     margin-bottom: 100px;
+    margin-right: 23px;
+    
   }
 
+  .mobile-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  width: 100px;
+  height: 30px;
+  color: white;
+  font-family: 'poppins', sans-serif;
+  font-weight: 100;
+  background-color:black;
+  border:solid white;
+  border-width: 1px;
+  border-radius: 5%;
+  font-size: 10px;
+  margin-top: -50px;
+  cursor: defult;
+  }
+  .mobile-btn a {
+    text-decoration: none;
+    color: inherit; /* Inherit the text color from the button */
+    display: flex; /* To ensure the text fills the button if needed */
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Make the anchor fill the button */
+    height: 100%;
+    }
+
+  .m-footer{
+
+  }
 

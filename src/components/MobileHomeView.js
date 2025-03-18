@@ -1,7 +1,7 @@
 // MobileHome.js
 import React from 'react';
-import "./mobile-view.css"; // Create a MobileHome.css
-
+import GBmobile from './GBmobile';
+import "./mobile-view.css"; // Create a MobileHome.cssimport 'G'
 function MobileHome() {
   return (
     <div className="mobile-home-container">
@@ -13,7 +13,7 @@ function MobileHome() {
       </div>
       
       <div className='mobile-img'></div>
-    
+      <GBmobile className='mobile-btn' to='/Gallery'>Browse Gallery</GBmobile>
     </div>
   );
 }
