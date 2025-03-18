@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.146c8c2e.css",
-    "main.js": "/static/js/main.5b190766.js",
+    "main.css": "/static/css/main.d8dbcc9b.css",
+    "main.js": "/static/js/main.e4c40dfd.js",
     "static/media/seal-modal.png": "/static/media/seal-modal.e8a37da717ed39c1507d.png",
     "static/media/crow-gallery.png": "/static/media/crow-gallery.5a57b68b442ae4a995a5.png",
     "static/media/south-gourock-g.png": "/static/media/south-gourock-g.6561d43804bcc1ebdc5d.png",
@@ -16,11 +16,11 @@
     "static/media/ruby.png": "/static/media/ruby.7ebdc08d9b6596473e51.png",
     "static/media/seal-mobile.png": "/static/media/seal-mobile.471bc418b0a5bb7a7957.png",
     "index.html": "/index.html",
-    "main.146c8c2e.css.map": "/static/css/main.146c8c2e.css.map",
-    "main.5b190766.js.map": "/static/js/main.5b190766.js.map"
+    "main.d8dbcc9b.css.map": "/static/css/main.d8dbcc9b.css.map",
+    "main.e4c40dfd.js.map": "/static/js/main.e4c40dfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.146c8c2e.css",
-    "static/js/main.5b190766.js"
+    "static/css/main.d8dbcc9b.css",
+    "static/js/main.e4c40dfd.js"
   ]
 }
