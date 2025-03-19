@@ -86,6 +86,14 @@
       margin-left: 10px;
       margin-right: 10px;
     }
+
+    .line-break{
+      font-family: 'poppins', sans-serif;
+      color: white;
+      font-size: 17px;
+      line-height: 2;
+      font-weight: 200;
+    }
     .aboutmobile-text{
       font-family: 'poppins', sans-serif;
       color: white;
@@ -107,8 +115,8 @@
       width: 100;
       margin-left: -1px;
       margin-right: 75px;
-      margin-top: -200px;
-      line-height: 2;
+      margin-top: -190px;
+      margin-bottom: -30px;
       line-height: 2;
     }
     
@@ -130,10 +138,9 @@
       font-size: 17px;
       font-weight: 200;
       line-height: 2;
-      margin-top: 225px;
+      margin-top: 150px;
       /* margin-left: 30px;
       margin-right: 50px; */
-      background-color: rebeccapurple;
     }
     
     .ruby-mobile{
@@ -142,7 +149,7 @@
      height: 150px;
      border:solid white;
      margin-top: 25px;
-     margin-left: 195px;
+     margin-left: 220px;
      object-fit: cover;
      object-position: 100%;
     
