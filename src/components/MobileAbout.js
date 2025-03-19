@@ -13,11 +13,9 @@ function MobileAbout() {
     <div className='aboutmobile-container'>
     
     <div className='aboutmobile-text'>What began as quiet doodles unexpectedly blossomed into a life as a landscape artist, a transformation deeply influenced by my bond with a rescued dog, Ruby.</div>
-
-    <div className='aboutmobile-left'>Trading Southern California sunshine for Britain's soft green woods and wildflower hills, I learned to truly listen to the land through countless hours of watercolor painting. </div>
     <div className='ruby-mobile'></div>
+    <div className='aboutmobile-left'>Trading Southern California sunshine for Britain's soft green woods and wildflower hills, I learned to truly listen to the land through countless hours of watercolor painting. </div>
     
-   {/* <div className='aboutmobile-right'>  </div> */}
    <div className='aboutmobile-bottom'>  Now residing in a new, mystical location where the landscape holds a deep sense of wonder, my art continues to translate this ongoing conversation with the natural world. Explore the places that have shaped my vision and the whispers I strive to capture in visual form."</div>
     </div>
     </>
