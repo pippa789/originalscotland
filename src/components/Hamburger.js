@@ -5,13 +5,13 @@ import styled from 'styled-components';
 const Hmenu = styled.div`
           display: flex;
           flex-direction: column;
-          justify-content: space-around;
+          justify-content: space-between;
           width: 300px;
-          height: 25px;
+          height: 200px;
           background: transparent;
           border: none;
           cursor: pointer;
-          padding: 0;
+          padding: 20px;
           color:white;
 `
 
@@ -31,7 +31,7 @@ function Hamburger() {
     <div>
         <button style={Hmenu} onClick={openMenu}></button>
         {showHamburger && (
-          <div>thsi is open
+          <div>
           <div onClick = {closeMenu}>close</div>
           </div>
         )}

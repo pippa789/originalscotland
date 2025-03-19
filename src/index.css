@@ -20,15 +20,16 @@ code {
   position: relative; /* Change to relative */
   display: none;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-end; /* Center vertically */
   width: 2.25rem;
   height: 2rem;
   color: white;
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 30px;
+  font-weight: 300;
   cursor: pointer; /* Add cursor pointer */
   margin-right: -150px;
+  padding: 30px;
 }
 
 @media (max-width: 480px) {
