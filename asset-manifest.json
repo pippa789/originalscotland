@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f8deb92.css",
+    "main.css": "/static/css/main.1f5a155e.css",
     "main.js": "/static/js/main.bfe3540a.js",
     "static/media/seal-modal.png": "/static/media/seal-modal.e8a37da717ed39c1507d.png",
     "static/media/crow-gallery.png": "/static/media/crow-gallery.5a57b68b442ae4a995a5.png",
@@ -17,11 +17,11 @@
     "static/media/seal-mobile.png": "/static/media/seal-mobile.471bc418b0a5bb7a7957.png",
     "static/media/ruby3.png": "/static/media/ruby3.82447963859d30e76888.png",
     "index.html": "/index.html",
-    "main.7f8deb92.css.map": "/static/css/main.7f8deb92.css.map",
+    "main.1f5a155e.css.map": "/static/css/main.1f5a155e.css.map",
     "main.bfe3540a.js.map": "/static/js/main.bfe3540a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f8deb92.css",
+    "static/css/main.1f5a155e.css",
     "static/js/main.bfe3540a.js"
   ]
 }
